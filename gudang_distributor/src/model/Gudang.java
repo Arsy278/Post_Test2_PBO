@@ -10,9 +10,9 @@ public final class Gudang implements crud {
     public Gudang() {
         daftarProduk = new ArrayList<>();
         var produkInstance = new Produk("", 0, 0);
-        daftarProduk.add(produkInstance.new makananRingan("Jelly Piala Mini (Per-Pack)", 55_000, 348));
-        daftarProduk.add(produkInstance.new makananRingan("Caramell Ball (Per-Pack)", 115_000, 263));
-        daftarProduk.add(produkInstance.new minuman("Happy Es teller (Per-Pack)", 10500, 238));
+        daftarProduk.add(produkInstance.new makananRingan("Jelly Piala Mini (Per-Pcs)", 55_000, 348));
+        daftarProduk.add(produkInstance.new makananRingan("Caramell Ball (Per-Pcs)", 115_000, 263));
+        daftarProduk.add(produkInstance.new minuman("Happy Es teller (Per-Pack)", 40_000, 238));
     }
 
     @Override
